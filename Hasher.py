@@ -8,6 +8,7 @@ def main(name, lz):
         attempts += 1
     return name, hash_, attempts
 
+# 5 & 6 are for numbers of 0's wanted, it will give an output per number. must be two numbers
 for lz in 5, 6:
     start = perf_counter()
     name, hash_, attempts = main('Marco Daman Sulaiman William nasiudy283', lz)
